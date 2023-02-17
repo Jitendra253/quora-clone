@@ -1,0 +1,91 @@
+.createContainer {
+    max-height: 100vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.createContainer::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* .createContainer::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.createContainer::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+}
+
+.createContainer::-webkit-scrollbar-track {
+    background-color: var(--background-color);
+}
+
+.createContainer::-webkit-scrollbar-track:hover {
+    background-color: gray;
+}
+
+.createContainer::-webkit-scrollbar-thumb {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.createContainer:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+    opacity: 1;
+}
+
+.scroll-container::-webkit-scrollbar-button {
+    margin-bottom: 0;
+}
+
+.createContainer:hover {
+    overflow: scroll;
+} */
+
+.create {
+    width: 11rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.create .first {
+    background-color: rgba(230, 225, 225, 0.911);
+    border-radius: 5px;
+}
+
+.linkstocreate {
+    margin-block: 8px;
+    padding: 3px;
+}
+
+.linkstocreate:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.create a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--gray-text);
+}
+
+.create img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 10%;
+    padding-inline: 10px;
+    border-radius: 20px;
+}
+
+ul {
+    color: var(--gray-text)
+}
+
+
+footer ul li:hover {
+    text-decoration: underline;
+}

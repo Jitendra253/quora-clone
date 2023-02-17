@@ -1,0 +1,10 @@
+.Container {
+    max-height: 100vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.Container::-webkit-scrollbar {
+    width: 0px;
+}

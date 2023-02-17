@@ -2,14 +2,14 @@ import React from 'react';
 import './Home.css'
 import CreateSpace from '../leftNavBar/CreateSpace';
 import Main from '../MiddleSection/Main';
-import Add from '../advertise/Add';
+import Ads from '../advertise/Ads';
 
 function Home() {
     return (
         <div className='home-page'>
             <CreateSpace />
             <Main />
-            <Add />
+            <Ads />
         </div>
     );
 

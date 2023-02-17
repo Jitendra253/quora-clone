@@ -1,0 +1,66 @@
+.middle-post {
+    width: 60rem;
+    height: 9rem;
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.new-post {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 1rem;
+}
+
+.new-post img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.input {
+    border: 1px solid var(--border-color);
+    background-color: var(--background-color);
+    padding-inline: 0.7rem;
+    padding-block: 0.5rem;
+    margin-inline: 1rem;
+    font-size: 1.5rem;
+    color: var(--gray-text);
+    border-radius: 20px;
+    width: 100%;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bottom a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--gray-text);
+}
+
+.bottom .item>* {
+    width: 100%;
+    padding: 5px;
+    width: 100%;
+}
+
+.bottom .item :hover {
+    background-color: var(--hover-color);
+    border-radius: 20px;
+}
