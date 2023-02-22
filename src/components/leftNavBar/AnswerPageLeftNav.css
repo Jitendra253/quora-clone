@@ -1,0 +1,54 @@
+.ans-left-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+
+
+.ans-left-create {
+    width: 15rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ans-left-create>* {
+    font-size: 1.5rem;
+}
+
+.ans-left-create span {
+    display: inline-block;
+    width: 90%;
+    padding: 5px;
+    color: var(--gray-text);
+}
+
+.ans-left-create span:hover {
+    background-color: var(--border-color);
+    border-radius: 5px;
+}
+
+
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--dark-text);
+    margin-bottom: 0.8rem;
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.red span {
+    color: var(--logo-color);
+    font-weight: 500;
+    background-color: #ebdddd;
+    border-radius: 5px;
+}
+
+.red span:hover {
+    background-color: #ebdddd;
+    border-radius: 5px;
+}

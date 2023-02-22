@@ -1,0 +1,143 @@
+.answer-container {
+    margin-top: 0.5rem;
+    width: 60rem;
+    max-height: 100vh;
+    overflow: scroll;
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.answer-container::-webkit-scrollbar {
+    width: 0px;
+}
+
+.questions-heading {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--dark-text);
+    margin-bottom: 0.8rem;
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding-inline: 2rem;
+}
+
+.questions-heading img {
+    width: 2rem;
+    height: 2rem;
+    outline: 5px solid var(--logo-color);
+    border-radius: 2px;
+}
+
+.questions {
+    padding-inline: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.questions>* {
+    padding-block: 0.5rem;
+}
+
+.question-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--dark-text);
+}
+
+.question-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.question-details span {
+    font-size: 1.3rem;
+    color: var(--gray-text);
+    padding-right: 10px;
+}
+
+.question-details span:first-child {
+    font-weight: 500;
+}
+
+.question-details span:first-child:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.question-details span+span::before {
+    content: ".";
+    margin-left: 2px;
+}
+
+
+.question-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.question-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question-left div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-inline: 5px;
+    padding: 5px;
+    padding-inline: 1rem;
+    font-size: 1.3rem;
+    color: var(--gray-text);
+}
+
+.question-left div:hover {
+    background-color: var(--background-color);
+    border-radius: 20px;
+}
+
+.question-left div:first-child {
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+
+}
+
+.question-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.question-right div {
+    padding: 0.5rem;
+}
+
+.question-right div:hover {
+    background-color: var(--background-color);
+    border-radius: 50%;
+}
+
+.show-more {
+    color: var(--gray-text);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+
+}
+
+.show-more:hover {
+    cursor: pointer;
+}

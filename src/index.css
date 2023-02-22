@@ -18,6 +18,7 @@ code {
   --hover-color: rgba(242, 237, 237, 0.782);
   --gray-text: #6c6d6f;
   --border-color: #b2bdb8;
+  --dark-text: #414142
 }
 
 html {

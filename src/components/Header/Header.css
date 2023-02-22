@@ -111,13 +111,6 @@
 }
 
 .red img {
-
-    outline: 1px solid var(--logo-color);
     border-radius: 0px;
-    padding: 1px;
     border-bottom: 2px solid var(--logo-color);
-}
-
-.normal img {
-    color: blue;
 }

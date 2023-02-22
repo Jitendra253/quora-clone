@@ -11,17 +11,18 @@
 }
 
 .post-title {
+    color: var(--dark-text);
     font-size: 24px;
     margin: 0;
 }
 
-.post-author {
+.author {
     display: flex;
     align-items: center;
     margin: 10px 0;
 }
 
-.post-author img {
+.author img {
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 50%;

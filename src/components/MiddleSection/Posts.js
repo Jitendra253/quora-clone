@@ -9,7 +9,7 @@ function Posts() {
     return (
         <div className='container'>
             <div className="quora-post">
-                <div className="post-author">
+                <div className="author">
                     <img src="https://img.freepik.com/free-photo/young-woman-with-round-glasses-yellow-sweater_273609-7091.jpg?w=900&t=st=1676461352~exp=1676461952~hmac=0a412588605984eebfb6a0c1751f6917f96fe0f8525929fb578db2c53c823fbf" />
                     <div className="author-details">
                         <p className="author-name">Pankaj Sharma<a href='#'>. Follow</a></p>
