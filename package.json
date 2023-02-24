@@ -16,6 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build --max-warnings 0",
+    "start": "react-scripts start --warn-on-fatal",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
