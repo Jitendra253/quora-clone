@@ -1,0 +1,7 @@
+.notification-page {
+    padding-inline: 7.5rem;
+    padding-top: 2rem;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+}

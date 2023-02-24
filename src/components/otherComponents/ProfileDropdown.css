@@ -1,0 +1,76 @@
+.profile-container {
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+    position: fixed;
+    top: 5rem;
+    right: 10%;
+    width: 22rem;
+    height: 100vh;
+    overflow: scroll;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    padding: 2rem;
+}
+
+
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.profile-header img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.profile-header>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-items {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.profile-items>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-items>div:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+    border-radius: 10px;
+}
+
+.profile-items div img {
+    margin-right: 10px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.3rem;
+}
+
+.settings>div {
+
+    padding: 0.5rem;
+}
+
+.settings>div:hover {
+    background-color: var(--hover-color);
+    border-radius: 10px;
+}
